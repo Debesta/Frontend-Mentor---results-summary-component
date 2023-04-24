@@ -16,16 +16,18 @@ html {
   flex-direction: column;
   width: 100%;
   height: 100vh;
+  background-color: hsl(0, 0%, 100%);
 }
 .container .result-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px 0 40px 0;
   text-align: center;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   color: hsl(221, 100%, 96%);
 }
 .container .result-box .circle {
@@ -33,7 +35,7 @@ html {
   height: 120px;
   margin: 20px 0 30px 0;
   border-radius: 50%;
-  background: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+  background-image: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
 }
 .container .result-box h1 {
   margin-top: 20px;
@@ -44,12 +46,82 @@ html {
   font-size: 25px;
 }
 .container .result-box h3 {
-  margin-top: 20px;
   font-size: 20px;
   color: hsl(241, 100%, 89%);
 }
 .container .result-box p {
   padding: 0 20px;
-  margin-bottom: 30px;
   color: hsl(241, 100%, 89%);
+}
+.container .summary-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.container .summary-box .width {
+  width: 100%;
+}
+.container .summary-box .flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  margin: 10px 0;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+.container .summary-box .flex .title {
+  flex-grow: 1;
+  padding: 10px;
+}
+.container .summary-box .flex p {
+  color: hsl(241, 100%, 89%);
+}
+.container .summary-box .flex span {
+  margin-bottom: 2px;
+  color: black;
+}
+.container .summary-box .reaction-box {
+  background-color: hsla(0, 100%, 67%, 0.05);
+}
+.container .summary-box .reaction-box .title {
+  color: hsl(0, 100%, 67%);
+}
+.container .summary-box .memory-box {
+  background-color: hsla(39, 100%, 56%, 0.05);
+}
+.container .summary-box .memory-box .title {
+  color: hsl(39, 100%, 56%);
+}
+.container .summary-box .verbal-box {
+  background-color: hsla(166, 100%, 37%, 0.05);
+}
+.container .summary-box .verbal-box .title {
+  color: hsl(166, 100%, 37%);
+}
+.container .summary-box .visual-box {
+  background-color: hsla(234, 85%, 45%, 0.05);
+}
+.container .summary-box .visual-box .title {
+  color: hsl(234, 85%, 45%);
+}
+.container .summary-box h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.container .summary-box .continue-btn {
+  height: 60px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 35px;
+  font-size: 20px;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(221, 100%, 96%);
+  cursor: pointer;
+  transition: background-image 0.3s;
+}
+.container .summary-box .continue-btn:hover {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }/*# sourceMappingURL=style.css.map */
