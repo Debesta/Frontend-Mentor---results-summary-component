@@ -124,4 +124,42 @@ html {
 }
 .container .summary-box .continue-btn:hover {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media (min-width: 1440px) {
+  .container {
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    height: 60%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  .container .result-box {
+    width: 50%;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  .container .result-box .circle {
+    width: 150px;
+    height: 150px;
+    margin: 30px 0;
+  }
+  .container .result-box .circle h1 {
+    margin-top: 30px;
+  }
+  .container .summary-box {
+    width: 50%;
+  }
+  .container .summary-box .flex {
+    height: 50px;
+  }
+  .container .summary-box .continue-btn {
+    margin: 15px 0;
+    height: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
