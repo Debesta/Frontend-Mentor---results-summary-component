@@ -26,23 +26,22 @@ html {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: hsl(221, 100%, 96%);
 }
 .container .result-box .circle {
   width: 120px;
   height: 120px;
-  margin: 20px 0;
+  margin: 20px 0 30px 0;
   border-radius: 50%;
   background: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
 }
 .container .result-box h1 {
   margin-top: 20px;
   font-size: 50px;
-  color: hsl(0, 0%, 100%);
 }
 .container .result-box h2 {
   margin-bottom: 10px;
   font-size: 25px;
-  color: hsl(0, 0%, 100%);
 }
 .container .result-box h3 {
   margin-top: 20px;

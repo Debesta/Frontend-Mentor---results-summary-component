@@ -13,6 +13,7 @@ html{
     font-size: 18px;
 }
 
+// Mobile design
 .container{
     display: flex;
     flex-direction: column;
@@ -27,22 +28,21 @@ html{
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
         background: linear-gradient($light-slate-blue, $light-royal-blue);
+        color: $pale-blue;
         .circle{
             width: 120px;
             height: 120px;
-            margin: 20px 0;
+            margin: 20px 0 30px 0;
             border-radius: 50%;
             background: linear-gradient($violet-blue, $persian-blue);
         }
         h1{
             margin-top: 20px;
             font-size: 50px;
-            color: $white;
         }
         h2{
             margin-bottom: 10px;
             font-size: 25px;
-            color: $white;
         }
         h3{
             margin-top: 20px;
@@ -57,6 +57,7 @@ html{
     }
 }
 
+// Desktop design
 @media (min-width: 1440px) {
     
 }
