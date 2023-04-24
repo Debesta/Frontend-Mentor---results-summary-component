@@ -8,4 +8,49 @@
 
 html {
   font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+.container .result-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.container .result-box .circle {
+  width: 120px;
+  height: 120px;
+  margin: 20px 0;
+  border-radius: 50%;
+  background: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+}
+.container .result-box h1 {
+  margin-top: 20px;
+  font-size: 50px;
+  color: hsl(0, 0%, 100%);
+}
+.container .result-box h2 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: hsl(0, 0%, 100%);
+}
+.container .result-box h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: hsl(241, 100%, 89%);
+}
+.container .result-box p {
+  padding: 0 20px;
+  margin-bottom: 30px;
+  color: hsl(241, 100%, 89%);
 }/*# sourceMappingURL=style.css.map */
